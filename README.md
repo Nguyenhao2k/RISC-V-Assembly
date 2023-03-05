@@ -54,6 +54,7 @@ Answer
 Run the program to completion. What number did the program output? What does this number represent?
 At what address is n stored in memory? Hint: Look at the contents of the registers.
 Without actually editing the code (i.e. without going into the "Editor" tab), have the program calculate the 13th fib number (0-indexed) by manually modifying the value of a register. You may find it helpful to first step through the code. If you prefer to look at decimal values, change the "Display Settings" option at the bottom.
+
 Exercise 3: Translating from C to RISC-V
 Open the files ex2.c and ex2.s. The assembly code provided (.s file) is a translation of the given C program into RISC-V.
 
@@ -83,6 +84,7 @@ As a sanity check, you should make sure your function properly returns that 3! =
 You can test this using the online version of Venus, but as promised, we've also provided Venus for you to test locally! We'll be using this local version in the autograder, so make sure to update your factorial.s file and run the following command before you submit to verify that the output is correct (You will need to run this from the labs directory).
 
 $ java -jar tools/venus.jar lab03/factorial.s
+
 Exercise 5: RISC-V function calling with map
 This exercise uses the file list_map.s.
 
